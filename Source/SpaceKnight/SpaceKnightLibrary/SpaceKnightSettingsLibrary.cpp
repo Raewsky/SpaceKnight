@@ -8,7 +8,7 @@
 FString USpaceKnightSettingsLibrary::GetCurrentDisplayResolution() {
 	FString res;
 	FDisplayMetrics Display;
-	FDisplayMetrics::GetDisplayMetrics(Display);
+	//FDisplayMetrics::GetDisplayMetrics(Display);
 
 	FString StrW = FString::FromInt(Display.PrimaryDisplayWidth);
 	FString StrH = FString::FromInt(Display.PrimaryDisplayHeight);
