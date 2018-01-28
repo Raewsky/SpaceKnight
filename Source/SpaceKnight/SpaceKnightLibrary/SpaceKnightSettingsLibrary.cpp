@@ -7,12 +7,15 @@
 
 FString USpaceKnightSettingsLibrary::GetCurrentDisplayResolution() {
 	FString res;
+/*
 	FDisplayMetrics Display;
-	//FDisplayMetrics::GetDisplayMetrics(Display);
+	FDisplayMetrics::GetDisplayMetrics(Display);
 
 	FString StrW = FString::FromInt(Display.PrimaryDisplayWidth);
 	FString StrH = FString::FromInt(Display.PrimaryDisplayHeight);
 	res = StrW.Append("x").Append(StrH);
+*/
+	res = "1024x768";
 	return res;
 }
 
